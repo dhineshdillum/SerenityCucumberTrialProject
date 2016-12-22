@@ -1,27 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3bc422a-5960-4ad5-a512-52a60d74378a" name="Default" comment="d">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/geckodriver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/GooglePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/SearchResultsPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SerenityCucumberTrialTest-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/SerenityCucumberTrialTest-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/SerenityCucumberMainPackage/StepDefinition.class" afterPath="$PROJECT_DIR$/target/test-classes/SerenityCucumberMainPackage/StepDefinition.class" />
+    <list default="true" id="c3bc422a-5960-4ad5-a512-52a60d74378a" name="Default" comment="Rahuls Commit">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Test.feature" afterPath="$PROJECT_DIR$/src/main/resources/Test.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SerenityCucumberMainPackage/StepDefinition.java" afterPath="$PROJECT_DIR$/src/test/java/SerenityCucumberMainPackage/StepDefinition.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SerenityCucumberMainPackage/taskRunnerTest.java" afterPath="$PROJECT_DIR$/src/test/java/SerenityCucumberMainPackage/taskRunnerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Test.feature" afterPath="$PROJECT_DIR$/target/classes/Test.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/82f562fa87dfc75f44d1e00ba5e83ac6.html" afterPath="$PROJECT_DIR$/target/site/serenity/82f562fa87dfc75f44d1e00ba5e83ac6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/82f562fa87dfc75f44d1e00ba5e83ac6.json" afterPath="$PROJECT_DIR$/target/site/serenity/82f562fa87dfc75f44d1e00ba5e83ac6.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-82f562fa87dfc75f44d1e00ba5e83ac6.xml" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-82f562fa87dfc75f44d1e00ba5e83ac6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/SerenityCucumberMainPackage.taskRunnerTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/SerenityCucumberMainPackage.taskRunnerTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SerenityCucumberMainPackage.taskRunnerTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-SerenityCucumberMainPackage.taskRunnerTest.xml" />
     </list>
     <ignored path="SerenityCucumber.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -235,7 +216,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -675,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482406093990</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="d">
+      <created>1482416295023</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1482416295023</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -790,7 +778,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated POM file" />
     <MESSAGE value="updated POM file. this version works" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated POM file. this version works" />
+    <MESSAGE value="d" />
+    <option name="LAST_COMMIT_MESSAGE" value="d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
