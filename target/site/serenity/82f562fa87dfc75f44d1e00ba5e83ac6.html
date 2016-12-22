@@ -58,7 +58,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-12-2016 11:14</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-12-2016 14:11</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -98,9 +98,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-3x' title='FAILURE'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-3x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="failing-color">
+                                <span class="error-color">
                                     Serenity And Cucumber Combined Trial
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -125,20 +125,21 @@
                     <th width="65">                        &nbsp;
                     </th>
 
-                    <th width="%" class="step-description-wide-column greentext">
+                    <th width="%" class="step-description-column greentext">
                         Steps
                     </th>
+                    <th width="120" class="greentext">Screenshot</th>
                     <th width="100" class="greentext">Outcome</th>
                     <th width="75" class="greentext">Duration</th>
                 </tr>
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="60" class="step-icon">
                         <a name="0"/>
                             <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="top-level-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -146,30 +147,24 @@
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.09s</span></td>
+                        <td width="100" class="ERROR-text">
+                                <a href="82f562fa87dfc75f44d1e00ba5e83ac6_screenshots.html#screenshots?screenshot=0">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="799f238418274b5d022de3df6a233638.png"
+                                         href="799f238418274b5d022de3df6a233638.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="top-level-step">ERROR</span></td>
+                    <td width="100"><span class="top-level-step">11.31s</span></td>
                 </tr>
-                <tr class="test-FAILURE">
-                    <td width="60" class="step-icon">
-                        <a name="1"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="top-level-step">When User clicks on BBC News</span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="top-level-step">FAILURE</span></td>
-                    <td width="100"><span class="top-level-step">0.01s</span></td>
-                </tr>
-                    <tr class="test-FAILURE">
+                    <tr class="test-ERROR">
                         <td width="40">&nbsp</td>
                         <td width="%" colspan="4" class="error-message-cell">
                             <div class="error-message ellipsis"
-                                 title='Assertion error'>
-                                <pre>Assertion error</pre>
+                                 title='No such element exception: Timed out after 2 seconds. Element not found'>
+                                <pre>No such element exception: Timed out after 2 seconds. Element not found</pre>
                             </div>
                 <div><!-- Stack trace -->
                     <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
@@ -187,15 +182,17 @@
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="stacktraceModalLabel">
-                                java.lang.AssertionError
+                                org.openqa.selenium.NoSuchElementException
                                 </h4>
                             </div>
                             <div class="modal-body">
-
-                                SerenityCucumberMainPackage.StepDefinition.user_clicks_on_BBC_News(StepDefinition.java
-                                    :28) <br>
-                                ✽.When User clicks on BBC News(Test.feature
-                                    :7) <br>
+                                    <h5>Timed out after 2 seconds. Element not found<br>For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'<br>System info: host: 'cit-dil-pre0105', ip: '10.80.124.62', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_92'<br>Driver info: driver.version: unknown<br>For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'<br>System info: host: 'cit-dil-pre0105', ip: '10.80.124.62', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_92'<br>Driver info: driver.version: unknown</h5>
+                                pageobjects.GooglePage.searchFor(GooglePage.java
+                                    :18) <br>
+                                SerenityCucumberMainPackage.StepDefinition.user_opens_BBC_website(StepDefinition.java
+                                    :43) <br>
+                                ✽.Given User opens BBC website(Test.feature
+                                    :6) <br>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">
@@ -209,6 +206,23 @@
                     </tr>
                 <tr class="test-SKIPPED">
                     <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">When User clicks on BBC News</span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SKIPPED-text">
+                        </td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
                         <a name="2"/>
                             <span style="margin-left: 20px; margin-right: 5px;"
                                   class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
@@ -219,13 +233,15 @@
 
                         </div>
                     </td>
+                        <td width="100" class="SKIPPED-text">
+                        </td>
                     <td width="100"><span class="top-level-step">SKIPPED</span></td>
                     <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
-                <tr class="test-FAILURE">
-                    <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.16s</em></span></td>
+                <tr class="test-ERROR">
+                    <td colspan="3"></td>
+                    <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>11.38s</em></span></td>
                 </tr>
 
             </table>

@@ -22,13 +22,4 @@ import org.junit.runner.RunWith;
 public class taskRunnerTest {
 
 
-  /*  public void test() {
-        System.out.println(" test ");
-    }
-
-    public static void run(Class testClass) {
-        JUnitCore jUnitCore = new JUnitCore();
-        jUnitCore.run(new Computer(), testClass);
-    }*/
-
 }

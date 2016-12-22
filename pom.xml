@@ -68,6 +68,13 @@
           <includes>
             <include>**/**/**/*.java</include><!-- or use feature -->
           </includes>
+          <systemProperties>
+            <browser>chrome</browser>
+            <webdriver.driver>chrome</webdriver.driver>
+            <webdriver.chrome.driver>${project.basedir}/src/main/resources/chromedriver</webdriver.chrome.driver>
+            <webdriver.gecko.driver>${project.basedir}/src/main/resources/geckodriver</webdriver.gecko.driver>
+            <webdriver.base.url>http://www.yahoo.com</webdriver.base.url>
+          </systemProperties>
         </configuration>
       </plugin>
       <plugin>
@@ -76,6 +83,11 @@
         <version>2.18.1</version>
         <configuration>
           <testFailureIgnore>true</testFailureIgnore>
+          <systemProperties>
+            <webdriver.driver>chrome</webdriver.driver>
+            <webdriver.chrome.driver>${project.basedir}/src/main/resources/chromedriver</webdriver.chrome.driver>
+            <webdriver.gecko.driver>${project.basedir}/src/main/resources/geckodriver</webdriver.gecko.driver>
+          </systemProperties>
         </configuration>
       </plugin>
       <plugin>
