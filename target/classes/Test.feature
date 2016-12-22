@@ -6,3 +6,4 @@ Feature: Searching by keyword
     Given User opens BBC website
     When User clicks on BBC News
     Then the BBC News page is obtained
+
