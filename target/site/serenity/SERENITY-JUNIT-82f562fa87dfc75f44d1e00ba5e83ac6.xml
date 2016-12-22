@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Searching by keyword" skipped="0" tests="1" time="0.16" timestamp="2016-12-357 11:14:31"><testcase name="Serenity And Cucumber Combined Trial"><failure type="java.lang.AssertionError"/><system-err>null
+SerenityCucumberMainPackage.StepDefinition.user_clicks_on_BBC_News(StepDefinition.java:28)
+✽.When User clicks on BBC News(Test.feature:7)
+</system-err></testcase></testsuite>

@@ -14,21 +14,21 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features="src/main/resources",
-       /* plugin = {
+       plugin = {
                 "pretty", "html:target/cucumber-html-reports",
-                "json:target/cucumber.json"},*/
+                "json:target/cucumber.json"},
         tags = "@Test")
 
 public class taskRunnerTest {
 
 
-    public void test() {
+  /*  public void test() {
         System.out.println(" test ");
     }
 
     public static void run(Class testClass) {
         JUnitCore jUnitCore = new JUnitCore();
         jUnitCore.run(new Computer(), testClass);
-    }
+    }*/
 
 }
